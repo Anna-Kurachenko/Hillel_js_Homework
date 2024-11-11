@@ -17,12 +17,12 @@ function checkProbabilityTheory(count) {
     // відсоток парних чисел до непарних чисел через використання тернарного оператора
     const evenToOdd = oddCount > 0 ? ((evenCount / oddCount) * 100).toFixed(2) : '100%';
 
-    // Виводимо результати
+    // результати
     console.log("Кількість згенерованих чисел:", count);
     console.log("Парних чисел:", evenCount);
     console.log("Непарних чисел:", oddCount);
     console.log(`Відсоток парних до непарних: ${evenToOdd}%`);
 }
 
-// Приклад виклику функції
+// приклад виклику функції, коли count=100
 checkProbabilityTheory(100);
